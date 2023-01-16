@@ -6,3 +6,4 @@ THIS IS AN INTERNSHIP PROJECT
 ![pic4](https://user-images.githubusercontent.com/120584943/212613527-b4f94f7c-02fb-49d4-a30c-76dbae3c730c.png)
 ![pic5](https://user-images.githubusercontent.com/120584943/212613553-824ce758-2ff0-4bdc-84c2-220c84e733a3.png)
 ![pic6](https://user-images.githubusercontent.com/120584943/212613567-9fa056d9-7621-437b-be91-df61d3a00644.png)
+![pic7](https://user-images.githubusercontent.com/120584943/212615335-31debdac-9794-4c50-903c-e85b69ffafdc.png)
