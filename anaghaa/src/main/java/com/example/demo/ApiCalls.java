@@ -14,14 +14,13 @@ public class ApiCalls {
     //API Call to get list of flights
     public String fprices(String adults, String origin, String destination, String departureDate) throws IOException, InterruptedException, ParseException {
 	HttpRequest request = HttpRequest.newBuilder()
-		.uri(URI.create("https://skyscanner44.p.rapidapi.com/autocomplete?query=berlin"))
+		.uri(URI.create("https://skyscanner44.p.rapidapi.com/search-extended?adults=1&origin=MUC&destination=BER&departureDate=2022-10-11&currency=EUR&stops=0%2C1%2C2&duration=50&startFrom=00%3A00&arriveTo=23%3A59&returnStartFrom=00%3A00&returnArriveTo=23%3A59"))
 		.header("X-RapidAPI-Key", "3c2074eaecmsh58c1fed6111d714p1c93dcjsn4b66c53886a3")
 		.header("X-RapidAPI-Host", "skyscanner44.p.rapidapi.com")
 		.method("GET", HttpRequest.BodyPublishers.noBody())
 		.build();
 HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 System.out.println(response.body());
-    
         return response.body();
     }
     
